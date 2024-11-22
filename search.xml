@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>css</title>
+      <link href="/2024/11/14/css/"/>
+      <url>/2024/11/14/css/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CSS样式"><a href="#CSS样式" class="headerlink" title="CSS样式"></a>CSS样式</h1><p><strong><code>*</code>（通配选择器）</strong>：</p><p><strong><code>margin</code></strong>：</p><ul><li>设置元素外边距，控制与周围元素间隔，代码中设为0清除默认外边距。</li></ul><p><strong><code>padding</code></strong>：</p><ul><li>设置元素内边距，即内容与边框距离，代码中设为0清除默认内边距。</li></ul><p><strong><code>background</code>（<code>body</code>元素）</strong>：</p><ul><li>设置元素背景，<code>body</code>中用<code>url(4.jpeg)</code>指定图片路径且<code>background-size: cover</code>让图片自适应铺满（因<code>body</code>宽100%、高100vh，铺满视口）。</li></ul><p><strong><code>width</code>（<code>body</code>元素）</strong>：</p><ul><li>设置元素宽度，<code>body</code>中设为100%与浏览器视口宽度相同。</li></ul><p><strong><code>height</code>（<code>body</code>元素）</strong>：</p><ul><li>设置元素高度，<code>body</code>中设为100vh即视口高度100%，填满视口。</li></ul><p><strong><code>display: flex</code>（<code>header</code>元素）</strong>：</p><ul><li>把<code>header</code>设为弹性容器，内部子元素按弹性布局规则排列，方便水平或垂直方向对齐、分布。</li></ul><p><strong><code>align-items</code>（<code>header</code>元素）</strong>：</p><ul><li>在<code>header</code>弹性容器中，控制子元素在交叉轴（垂直主轴）上居中对齐。</li></ul><p><strong><code>justify-content</code>（<code>header</code>元素）</strong>：</p><ul><li>在<code>header</code>弹性容器中，控制子元素在主轴（默认水平，可改）上均匀分布且两端留间隔。</li></ul><p><strong><code>background-color</code>（<code>header</code>元素）</strong>：</p><ul><li>设置<code>header</code>元素背景色为半透明黑色<code>rgba(0, 0, 0, 0.2)</code>。</li></ul><p><strong><code>backdrop-filter: blur(10px)</code>（<code>header</code>元素）</strong>：</p><ul><li>对<code>header</code>背后内容应用模糊效果，半径10px，营造层次感和视觉焦点。</li></ul><p><strong><code>height</code>（<code>header</code>元素）</strong>：</p><ul><li>设置<code>header</code>元素高度为80px。</li></ul><p><strong><code>color</code>（<code>loge</code>、<code>nav a</code>、<code>user-form-groud a</code>等元素）</strong>：</p><ul><li>设置元素内部文本颜色为白色。</li></ul><p><strong><code>text-decoration</code>（<code>nav a</code>、<code>user-form-groud a</code>等元素）</strong>：</p><ul><li>控制文本无下划线等装饰效果。</li></ul><p><strong><code>font-weight</code>（<code>nav a</code>、<code>user-form-groud a</code>等元素）</strong>：</p><ul><li>设置文本字体粗细为600，呈现较粗效果。</li></ul><p><strong><code>font-size</code>（<code>nav a</code>、<code>user-form-groud a</code>等元素）</strong>：</p><ul><li>设置文本字体大小为18px。</li></ul><p><strong><code>padding</code>（<code>nav a</code>等元素）</strong>：</p><ul><li>在<code>nav a</code>等元素设置内边距，如<code>padding: 8px 16px</code>，增加文本与边框间隔、点击区域和视觉效果。</li></ul><p><strong><code>transition</code>（<code>nav a</code>、<code>signup</code>等元素）</strong>：</p><ul><li>设置元素属性变化时过渡效果，设过渡时间300ms，属性变化有平滑过渡。</li></ul><p><strong><code>border-radius</code>（<code>nav a</code>、<code>signup</code>等元素）</strong>：</p><ul><li>设置元素边框圆角半径为99px，使边框圆润、外观更美观。</li></ul><p><strong><code>display: none</code>（<code>nav.loge</code>、<code>#check</code>、<code>user-form-groud label</code>等元素）</strong>：</p><ul><li>隐藏元素，页面布局中不占空间。</li></ul><p><strong><code>position: absolute</code>（<code>nav</code>元素媒体查询中、<code>adjust</code>元素）</strong>：</p><ul><li>设置元素为绝对定位，脱离文档流，依指定坐标（如<code>top</code>、<code>left</code>等）定位。</li></ul><p><strong><code>flex-direction: column</code>（<code>nav</code>元素媒体查询中）</strong>：</p><ul><li>在<code>nav</code>弹性容器（媒体查询中），改主轴方向为垂直，子元素按弹性布局垂直排列。</li></ul><p><strong><code>gap</code>（<code>nav</code>元素媒体查询中）</strong>：</p><ul><li>在<code>nav</code>弹性容器（媒体查询中），设置子元素间隔为16px。</li></ul><p><strong><code>box-shadow</code>（<code>nav</code>元素媒体查询中）</strong>：</p><ul><li>给<code>nav</code>元素（媒体查询中）添加阴影效果，如<code>box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2)</code>。</li></ul><p><strong><code>z-index</code>（<code>adjust</code>元素）</strong>：</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>js</title>
+      <link href="/2024/11/14/js/"/>
+      <url>/2024/11/14/js/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vsc快捷键</title>
+      <link href="/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vsc快捷键"><a href="#vsc快捷键" class="headerlink" title="vsc快捷键"></a>vsc快捷键</h1><div class="table-container"><table><thead><tr><th>快捷键</th><th>作用</th></tr></thead><tbody><tr><td>Ctrl + Enter</td><td>行中换行</td></tr><tr><td>Alt + Up / Alt + Down</td><td>上下移行</td></tr><tr><td>Shift + Alt + Up / Shift + Alt + Down</td><td>上下复制</td></tr><tr><td>Ctrl + Left / Ctrl + Right</td><td>跳单词（跳块）</td></tr><tr><td>Ctrl + Delete / Ctrl + Backspace</td><td>删单词（删块）</td></tr><tr><td>Ctrl + 1（多按几次）</td><td>选单行，继续按选多行</td></tr><tr><td>Shift + Delete</td><td>删一行</td></tr><tr><td>Ctrl + C &amp;&amp; Ctrl + V</td><td>复制一行，粘贴一行</td></tr><tr><td>Ctrl + J</td><td>下栏</td></tr><tr><td>Ctrl + B</td><td>左栏</td></tr><tr><td>Ctrl + `</td><td>终端</td></tr><tr><td>Ctrl + LBtton/ctrl＋art</td><td>多行选择</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + [/]</td><td>缩进</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + cv</td><td>行复制粘贴</td></tr><tr><td>Ctrl + -</td><td>UI缩放</td></tr><tr><td>Ctrl + Shift + P</td><td>打开命令面板（执行各种命令）</td></tr><tr><td>Ctrl + P</td><td>在文件夹内搜索文件</td></tr><tr><td>F2</td><td>重命名变量</td></tr><tr><td>shift + alt + f</td><td>格式化代码</td></tr></tbody></table></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>做一个平和的人</title>
+      <link href="/2024/11/14/%E5%B9%B3%E5%92%8C%E7%AF%87/"/>
+      <url>/2024/11/14/%E5%B9%B3%E5%92%8C%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h1 id="做一个-平和-的人"><a href="#做一个-平和-的人" class="headerlink" title="做一个 平和 的人"></a>做一个 <u>平和</u> 的人</h1><ul><li>不要以情感作为前进的动力,例如厌恶</li><li>不要过分专注于过去与未来,<u>珍惜当下</u></li><li>快乐不是幸福,平和才是</li><li>平和的人能更快进入心流</li></ul><h2 id="1-在接受中寻找幸福"><a href="#1-在接受中寻找幸福" class="headerlink" title="1.在接受中寻找幸福"></a>1.在接受中寻找幸福</h2><p>  于接受中寻找幸福在生活中，无论面对何种状况，你都有三种选择：改变现状，接受现状，逃避现状。试图改变现状是一种欲望。在成功改变现状之前，欲望会让人感到痛苦.所以不要总想着去改变外部环境。在任何特定的时间段，只选择一个最有价值的欲望，作为自己的奋斗目标和动力之源。</p><h3 id="为什么不能同时选择两个欲望？"><a href="#为什么不能同时选择两个欲望？" class="headerlink" title="为什么不能同时选择两个欲望？"></a>为什么不能同时选择两个欲望？</h3><p>  因为这样会让人分心。即使追求一个欲望，也已经很难了。平静的内心源于毫无杂念的大脑。而消除杂念，很大程度上依赖于活在当下。如果你一直在想，​“我需要这样做，我想要那个东西，这种情况必须改变”​，你就很难保持心态平和。再次强调，无论面对何种状况，你都有三种选择：改变现状，接受现状，逃避现状。很多人在遇到问题时会踟蹰不前，陷入空想：希望改变现状却没有横下一条心去改变，希望转身离开却没有毅然决然地离去，同时又不能心平气和地接受现状。这种纠结和回避的态度正是人生中大部分痛苦的来源。我在脑海里对自己说得最多的就是两个字：接受。</p><h2 id="2-幸福来需要活在当下"><a href="#2-幸福来需要活在当下" class="headerlink" title="2.幸福来需要活在当下"></a>2.幸福来需要活在当下</h2><p>  幸福需要活在当下在任何时候（比如走路的时候）​，大脑都只有很小一部分是关注当下的。大脑把主要精力用于规划未来或悔恨过去。这样的运行机制让人无法获得绝妙的体验，无法欣赏周遭一切事物的美妙之处，无法因为现状常怀感恩之心。如果每天都沉浸在对未来的规划和幻想中，那就是在亲手扼杀自己的幸福。我们渴望那些让我们能感知当下的体验，殊不知，这样的渴望却让我们脱离了当下。我认为，过去就是过去了，没有回忆，没有遗憾，没有放不下的人，没有忘不掉的旅行。既往不恋。人之所以感到痛苦，很多时候是因为拿以往和现在做比较。以往种种未能实现的欲念会带来现在的缺憾感，而我们又将弥补现实缺憾的希望寄托于未来。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">消除缺憾感会让人更容易活在当下。</span><br><span class="line">你有没有想过，现在的生活可能就是上帝承诺给你的天堂，而你却毫不珍惜，肆意挥霍？</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
