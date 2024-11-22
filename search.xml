@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>vsc快捷键</title>
-      <link href="/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-      <url>/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <title>js</title>
+      <link href="/2024/11/14/js/"/>
+      <url>/2024/11/14/js/</url>
       
-        <content type="html"><![CDATA[<h1 id="vsc快捷键"><a href="#vsc快捷键" class="headerlink" title="vsc快捷键"></a>vsc快捷键</h1><div class="table-container"><table><thead><tr><th>快捷键</th><th>作用</th></tr></thead><tbody><tr><td>Ctrl + Enter</td><td>行中换行</td></tr><tr><td>Alt + Up / Alt + Down</td><td>上下移行</td></tr><tr><td>Shift + Alt + Up / Shift + Alt + Down</td><td>上下复制</td></tr><tr><td>Ctrl + Left / Ctrl + Right</td><td>跳单词（跳块）</td></tr><tr><td>Ctrl + Delete / Ctrl + Backspace</td><td>删单词（删块）</td></tr><tr><td>Ctrl + 1（多按几次）</td><td>选单行，继续按选多行</td></tr><tr><td>Shift + Delete</td><td>删一行</td></tr><tr><td>Ctrl + C &amp;&amp; Ctrl + V</td><td>复制一行，粘贴一行</td></tr><tr><td>Ctrl + J</td><td>下栏</td></tr><tr><td>Ctrl + B</td><td>左栏</td></tr><tr><td>Ctrl + `</td><td>终端</td></tr><tr><td>Ctrl + LBtton/ctrl＋art</td><td>多行选择</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + [/]</td><td>缩进</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + cv</td><td>行复制粘贴</td></tr><tr><td>Ctrl + -</td><td>UI缩放</td></tr><tr><td>Ctrl + Shift + P</td><td>打开命令面板（执行各种命令）</td></tr><tr><td>Ctrl + P</td><td>在文件夹内搜索文件</td></tr><tr><td>F2</td><td>重命名变量</td></tr><tr><td>shift + alt + f</td><td>格式化代码</td></tr></tbody></table></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -43,11 +43,11 @@
     
     
     <entry>
-      <title>js</title>
-      <link href="/2024/11/14/js/"/>
-      <url>/2024/11/14/js/</url>
+      <title>vsc快捷键</title>
+      <link href="/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2024/11/14/vsc%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="vsc快捷键"><a href="#vsc快捷键" class="headerlink" title="vsc快捷键"></a>vsc快捷键</h1><div class="table-container"><table><thead><tr><th>快捷键</th><th>作用</th></tr></thead><tbody><tr><td>Ctrl + Enter</td><td>行中换行</td></tr><tr><td>Alt + Up / Alt + Down</td><td>上下移行</td></tr><tr><td>Shift + Alt + Up / Shift + Alt + Down</td><td>上下复制</td></tr><tr><td>Ctrl + Left / Ctrl + Right</td><td>跳单词（跳块）</td></tr><tr><td>Ctrl + Delete / Ctrl + Backspace</td><td>删单词（删块）</td></tr><tr><td>Ctrl + 1（多按几次）</td><td>选单行，继续按选多行</td></tr><tr><td>Shift + Delete</td><td>删一行</td></tr><tr><td>Ctrl + C &amp;&amp; Ctrl + V</td><td>复制一行，粘贴一行</td></tr><tr><td>Ctrl + J</td><td>下栏</td></tr><tr><td>Ctrl + B</td><td>左栏</td></tr><tr><td>Ctrl + `</td><td>终端</td></tr><tr><td>Ctrl + LBtton/ctrl＋art</td><td>多行选择</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + [/]</td><td>缩进</td></tr><tr><td>Ctrl + /</td><td>注释</td></tr><tr><td>Ctrl + cv</td><td>行复制粘贴</td></tr><tr><td>Ctrl + -</td><td>UI缩放</td></tr><tr><td>Ctrl + Shift + P</td><td>打开命令面板（执行各种命令）</td></tr><tr><td>Ctrl + P</td><td>在文件夹内搜索文件</td></tr><tr><td>F2</td><td>重命名变量</td></tr><tr><td>shift + alt + f</td><td>格式化代码</td></tr></tbody></table></div>]]></content>
       
       
       
